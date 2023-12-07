@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oscar Julián Castillo Mateus">
+    <meta name="description" content="Inmobiliaria USG">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Inmobiliaria USG</title>
+</head>
+<body>
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logotipo de la inmobiliaria ">
+                </a>
+
+                <!--Atributo href es para el link al cual vamos a acceder -->
+                <!--atributo target con 4 valores diferentes, _blank para briri el enlase en otra pestaña y el valor por defecto _self en la misma pesataña-->
+                <!--<a href="nosotros.html" target="_blank">Nosotros</a>-->
+                <!--enlace externo-->
+                <!--<a href="http://uber.com">ir a uber</a>-->
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a> 
+                    <a href="anuncios.html">Anuncio</a> 
+                    <a href="blog.html">Blog</a> 
+                    <a href="contacto.html">Contacto</a>
+                </nav> 
+            </div><!--Fin de la barra-->
+            <h1>Venta de Casas y Apatamentos Exclusivos de Lujo</h1>
+        </div><!--fin de contenedor-->
+    </header>
+
+        <!--seccion de mas sobre nosotros-->
+    <section class="contenedor">
+        <h2 class="seccion centrar-texto fw-300">Más Sobre Nosotros</h2>
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <img src="img/icono1.svg" alt="Icono Seguridad">
+
+                <h3>SEGURIDAD</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, praesentium? Perferendis iure esse nobis asperiores porro molestias magni, magnam omnis minima harum odio temporibus corporis pariatur veniam quos. Molestias, nisi.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono2.svg" alt="Icono mejor precio">
+
+                <h3>EL MEJOR PRECIO </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat labore aut at voluptatem fuga! Expedita nostrum, vitae nobis molestias quis officiis quisquam saepe repellat voluptas ea a, explicabo officia illum.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono3.svg" alt="Icono a tiempo">
+
+                <h3>A TIEMPO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eligendi illo sunt debitis tenetur quas fuga recusandae corporis repellendus consequatur quos alias itaque, nemo vel vero fugiat assumenda quae asperiores!</p>
+            </div>
+        </div>
+    </section>
+
+    <!--main o contenido principal-->
+    <main class="contenedor">
+        <h2 class="seccion centrar-texto fw-300">Casas y Apartamentos en Venta </h2>
+        
+        <!--Contenedor de los anuncios-->
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="img/anuncio1.jpg" alt="anuncio casa en el lago">
+
+                <!--Contenedor de tarjetas-->
+                <div class="contenido-anuncio">
+                    <h3>Casa de Lujo en el Lago</h3>
+                    <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
+                    <p class="precio">$380.000.000</p>
+
+                    <!--lista de iconos-->
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="Icono baño">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="Icono Estaccionamiento">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="Icono Dormitorio">
+                            <p>4</p>
+                        </li>
+                    </ul>
+
+                    <a class="boton boton-amarillo d-block" href="#">Ver Propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/anuncio2.jpg" alt="anuncio casa moderna de lujo">
+
+                <!--Contenedor de tarjetas-->
+                <div class="contenido-anuncio">
+                    <h3>Casa Terminados de Lujo</h3>
+                    <p>Casa con diseño moderno, así como tecnología inteligente y amueblada</p>
+                    <p class="precio">$450.000.000</p>
+
+                    <!--lista de iconos-->
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="Icono baño">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="Icono Estaccionamiento">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="Icono Dormitorio">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a class="boton boton-amarillo d-block" href="#">Ver Propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/anuncio3.jpg" alt="anuncio casa con picina">
+
+                <!--Contenedor de tarjetas-->
+                <div class="contenido-anuncio">
+                    <h3>Casa con Picina</h3>
+                    <p>Casa con picina y acabados de lujo en la ciudad, excelente oportunidad</p>
+                    <p class="precio">$550.000.000</p>
+
+                        <!--lista de iconos-->
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="Icono baño">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="Icono Estaccionamiento">
+                            <p>3</p>
+                        </li>
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="Icono Dormitorio">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a class="boton boton-amarillo d-block" href="#">Ver Propiedad</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ver-todas">
+            <a class="boton boton-verde" href="anuncios.html">Ver Todas</a>
+        </div>
+    </main>
+
+    <!--seccion de contacto-->
+    <div class="imagen-contacto seccion">
+        <section class="contenedor contenido-contacto" >
+            <h2>Encuentra la Casa de tus Sueños</h2>
+            <p>Llena el formato de contacto y un asesor se pondrá en contacto contigo a la brevedad</p>
+            <a class="boton boton-amarillo" href="contacto.html">Contáctanos</a>
+        </section>
+    </div>
+
+    <!--nuestro blog-->
+    <div class="seccion-inferior contenedor">
+        <section class="blog">
+            <h3 class="centrar-texto seccion fw-300">Nuestro Blog</h3>
+
+            <article class="entrada-blog">
+                <div class="imagen-entrada">
+                    <img src="img/blog1.jpg" alt="imagne blog terraza en el techo">
+                </div>
+
+                <div class="texto-entrada">
+                    <a href=""><h4>Terraza en el techo de tu casa</h4></a>
+
+                    <p>
+                        Escrito el: <span>/07/2020</span> por: <span>Admin</span>
+                    </p>
+                    <p>Consejos para construir una terraza en el techo de tu casa, con los mejores materiales y ahorrando dinero</p>
+                </div>
+            </article>
+
+            <article class="entrada-blog">
+                <div class="imagen-entrada">
+                    <img src="img/blog2.jpg" alt="imagen blog guia decoración ">
+                </div>
+
+                <div class="texto-entrada">
+                    <a href=""><h4>Guía para decoración de tu hogar</h4></a>
+
+                    <p>
+                        Escrito el: <span>/11/2020</span> por: <span> Admin</span>
+                    </p>
+                    <p>Maximiza el espacio en tu hogar con esta guía, aprende a compinar muebles y colores para darle vida a tu espacio</p>
+                </div>
+            </article>
+        </section>
+
+        <aside class="testimoniales">
+            <h3 class="centrar-texto seccion fw-300">Testimoniales</h3>
+            <div class="testimonial">
+                <blockquote>
+                    El personal se comportó de una exelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas.
+                </blockquote>
+                <p>- Oscar Julián Castillo</p>
+            </div>
+        </aside>
+    </div>
+
+    <div class="site-footer">
+        <footer class="contenedor contenido-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a> 
+                <a href="anuncios.html">Anuncio</a> 
+                <a href="blog.html">Blog</a> 
+                <a href="contacto.html">Contacto</a> 
+            </nav>
+            <p class="copyright">Todos los derechos reservados 2020 &copy</p>
+        </footer>
+    </div>
+</body>
+</html>
